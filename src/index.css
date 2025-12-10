@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #171717;
+  color: #e8eaed;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Mencegah scroll default karena kita pakai 3D scene */
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #202124;
+}
+::-webkit-scrollbar-thumb {
+  background: #5f6368;
+  border-radius: 4px;
+}
